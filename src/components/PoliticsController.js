@@ -25,9 +25,13 @@ class PoliticsController extends Component {
     return (
       <div class="articleController">
 
-        <Article text={paragraphs} />
+        <article>
+          <Article text={paragraphs} />
+        </article>
 
-        <Sidebar linkNames={linkNames} />
+        <sidebar>
+          <Sidebar linkNames={linkNames} />
+        </sidebar>
 
       </div>
     )

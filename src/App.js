@@ -14,7 +14,9 @@ function App() {
     return (
       <div class="App">
 
-        <Header />
+        <header>
+          <Header />
+        </header>
 
         <form>
           <input type="search" name="q" placeholder="Search query" />
@@ -26,9 +28,9 @@ function App() {
 
             <nav>
               <ul class="approuter">
+                <li><Link to="/">Political Schemes</Link></li>
                 <li><Link to="/memes">Memes</Link></li>
                 <li><Link to="/dreams/">Dreams</Link></li>
-                <li><Link to="/">Political Schemes</Link></li>
               </ul>
             </nav>
 
@@ -41,7 +43,9 @@ function App() {
           </div>
         </Router>
 
-        <Footer />
+        <footer>
+          <Footer />
+        </ footer>
 
       </div>
     );

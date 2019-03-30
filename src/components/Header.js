@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
+import React, { Fragment } from 'react';
 
-class Header extends Component {
-  render() {
+function Header() {
     return (
-      <div className = "header">
-        <h2>Memes, Dreams, and Political Schemes</h2>
-      </div>
-    )
-  };
+      <Fragment>
+          <h2>Memes, Dreams, and Political Schemes</h2>
+      </Fragment>
+    );
 }
+
 
 export default Header;

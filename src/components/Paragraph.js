@@ -16,7 +16,7 @@ import React, { Component } from 'react';
 
 const Paragraph = props => {
   return (
-    <p classname="paragraph">
+    <p className="paragraph">
       {props.link}
     </p>
   );

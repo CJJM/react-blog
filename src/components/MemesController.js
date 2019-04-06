@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class MemesController extends Component {
   render () {
     return (
-      <div class="memesController">
+      <div className="memesController">
 
         <h3>This is the Memes Controller section</h3>
 

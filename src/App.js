@@ -12,22 +12,17 @@ import Footer from './components/Footer';
 
 function App() {
     return (
-      <div class="App">
+      <div className="App">
 
         <header>
-          <Header />
+          <Header id="siteTitle"/>
         </header>
 
-        <form>
-          <input type="search" name="q" placeholder="Search query" />
-          <input type="submit" value="Go!" />
-        </form>
-
         <Router>
-          <div>
+          <div id="contentController">
 
             <nav>
-              <ul class="approuter">
+              <ul id="navList">
                 <li><Link to="/">Political Schemes</Link></li>
                 <li><Link to="/memes">Memes</Link></li>
                 <li><Link to="/dreams/">Dreams</Link></li>

@@ -23,15 +23,15 @@ const linkNames = [
 class PoliticsController extends Component {
   render () {
     return (
-      <div class="articleController">
+      <div className="articleController">
 
         <article>
           <Article text={paragraphs} />
         </article>
 
-        <sidebar>
+        <aside>
           <Sidebar linkNames={linkNames} />
-        </sidebar>
+        </aside>
 
       </div>
     )
